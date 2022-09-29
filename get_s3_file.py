@@ -1,4 +1,5 @@
 import boto3
+import os
 import subprocess
 
 session = boto3.Session()
@@ -18,5 +19,6 @@ my_bucket = s3.Bucket(bucket_name)
 
 for my_bucket_object in my_bucket.objects.all():
     print(my_bucket_object.key)
-    my_bucket.download_file(my_bucket_object.key,"../file/index.html")
+    os.chdir("../file")
+    my_bucket.download_file(my_bucket_object.key,"index.html")
 
