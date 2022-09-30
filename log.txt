@@ -220,9 +220,9 @@ Terraform will perform the following actions:
   [32m+[0m [0m[1m[0mkey_arn[0m[0m        = (known after apply)
   [32m+[0m [0m[1m[0mkey_id[0m[0m         = (known after apply)
   [32m+[0m [0m[1m[0ms3_bucket_name[0m[0m = "tip-cloud-ag-bucket"
-[0m[1maws_kms_key.tipkms: Creating...[0m[0m
 [0m[1maws_s3_bucket.tip-cloud-buckets3: Creating...[0m[0m
-[0m[1maws_kms_key.tipkms: Creation complete after 1s [id=9d592fd3-6930-4f54-b174-ecfcd1bd4ea8][0m
+[0m[1maws_kms_key.tipkms: Creating...[0m[0m
+[0m[1maws_kms_key.tipkms: Creation complete after 1s [id=44bc7a56-bc5f-417d-b4b0-e03cc0132537][0m
 [0m[1maws_s3_bucket.tip-cloud-buckets3: Creation complete after 4s [id=tip-cloud-ag-bucket][0m
 [0m[1maws_s3_bucket_acl.tip-cloud-bucketacl: Creating...[0m[0m
 [0m[1maws_s3_object.statis_html: Creating...[0m[0m
@@ -233,6 +233,6 @@ Apply complete! Resources: 4 added, 0 changed, 0 destroyed.
 [0m[0m[1m[32m
 Outputs:
 
-[0mkey_arn = "arn:aws:kms:ap-northeast-1:020089661374:key/9d592fd3-6930-4f54-b174-ecfcd1bd4ea8"
-key_id = "9d592fd3-6930-4f54-b174-ecfcd1bd4ea8"
+[0mkey_arn = "arn:aws:kms:ap-northeast-1:020089661374:key/44bc7a56-bc5f-417d-b4b0-e03cc0132537"
+key_id = "44bc7a56-bc5f-417d-b4b0-e03cc0132537"
 s3_bucket_name = "tip-cloud-ag-bucket"
