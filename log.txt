@@ -1,5 +1,5 @@
-[0m[1maws_s3_bucket.tip-cloud-buckets3: Refreshing state... [id=tip-cloud-ag-bucket][0m
 [0m[1maws_kms_key.tipkms: Refreshing state... [id=5bfb3639-13f1-4a67-8a60-061b5080f2f9][0m
+[0m[1maws_s3_bucket.tip-cloud-buckets3: Refreshing state... [id=tip-cloud-ag-bucket][0m
 [0m[1maws_s3_object.statis_html: Refreshing state... [id=index.html][0m
 [0m[1maws_s3_bucket_acl.tip-cloud-bucketacl: Refreshing state... [id=tip-cloud-ag-bucket,private][0m
 
