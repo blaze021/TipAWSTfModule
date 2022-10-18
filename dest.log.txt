@@ -1,5 +1,5 @@
-[0m[1maws_kms_key.tipkms: Refreshing state... [id=22534c91-2c0f-446c-9d59-f8dd0d0d22eb][0m
 [0m[1maws_s3_bucket.tip-cloud-buckets3: Refreshing state... [id=tip-cloud-ag-bucket][0m
+[0m[1maws_kms_key.tipkms: Refreshing state... [id=922b39ae-3d88-4147-a877-22f3c0dcd3c0][0m
 [0m[1maws_s3_bucket_acl.tip-cloud-bucketacl: Refreshing state... [id=tip-cloud-ag-bucket,private][0m
 [0m[1maws_s3_object.statis_html: Refreshing state... [id=index.html][0m
 
@@ -11,15 +11,15 @@ Terraform will perform the following actions:
 
 [1m  # aws_kms_key.tipkms[0m will be [1m[31mdestroyed[0m[0m
 [0m  [31m-[0m[0m resource "aws_kms_key" "tipkms" {
-      [31m-[0m [0m[1m[0marn[0m[0m                                = "arn:aws:kms:ap-northeast-1:020089661374:key/22534c91-2c0f-446c-9d59-f8dd0d0d22eb" [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0marn[0m[0m                                = "arn:aws:kms:ap-northeast-1:020089661374:key/922b39ae-3d88-4147-a877-22f3c0dcd3c0" [90m->[0m [0m[90mnull[0m[0m
       [31m-[0m [0m[1m[0mbypass_policy_lockout_safety_check[0m[0m = false [90m->[0m [0m[90mnull[0m[0m
       [31m-[0m [0m[1m[0mcustomer_master_key_spec[0m[0m           = "SYMMETRIC_DEFAULT" [90m->[0m [0m[90mnull[0m[0m
       [31m-[0m [0m[1m[0mdeletion_window_in_days[0m[0m            = 7 [90m->[0m [0m[90mnull[0m[0m
       [31m-[0m [0m[1m[0mdescription[0m[0m                        = "KMS key 1" [90m->[0m [0m[90mnull[0m[0m
       [31m-[0m [0m[1m[0menable_key_rotation[0m[0m                = false [90m->[0m [0m[90mnull[0m[0m
-      [31m-[0m [0m[1m[0mid[0m[0m                                 = "22534c91-2c0f-446c-9d59-f8dd0d0d22eb" [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mid[0m[0m                                 = "922b39ae-3d88-4147-a877-22f3c0dcd3c0" [90m->[0m [0m[90mnull[0m[0m
       [31m-[0m [0m[1m[0mis_enabled[0m[0m                         = true [90m->[0m [0m[90mnull[0m[0m
-      [31m-[0m [0m[1m[0mkey_id[0m[0m                             = "22534c91-2c0f-446c-9d59-f8dd0d0d22eb" [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mkey_id[0m[0m                             = "922b39ae-3d88-4147-a877-22f3c0dcd3c0" [90m->[0m [0m[90mnull[0m[0m
       [31m-[0m [0m[1m[0mkey_usage[0m[0m                          = "ENCRYPT_DECRYPT" [90m->[0m [0m[90mnull[0m[0m
       [31m-[0m [0m[1m[0mmulti_region[0m[0m                       = false [90m->[0m [0m[90mnull[0m[0m
       [31m-[0m [0m[1m[0mpolicy[0m[0m                             = jsonencode(
@@ -102,11 +102,11 @@ Terraform will perform the following actions:
       [31m-[0m [0m[1m[0mbucket[0m[0m                 = "tip-cloud-ag-bucket" [90m->[0m [0m[90mnull[0m[0m
       [31m-[0m [0m[1m[0mbucket_key_enabled[0m[0m     = true [90m->[0m [0m[90mnull[0m[0m
       [31m-[0m [0m[1m[0mcontent_type[0m[0m           = "binary/octet-stream" [90m->[0m [0m[90mnull[0m[0m
-      [31m-[0m [0m[1m[0metag[0m[0m                   = "79243e5421a71b5da9a0be360d73e750" [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0metag[0m[0m                   = "2ee566b18e23a2b99b0d276aa4099358" [90m->[0m [0m[90mnull[0m[0m
       [31m-[0m [0m[1m[0mforce_destroy[0m[0m          = false [90m->[0m [0m[90mnull[0m[0m
       [31m-[0m [0m[1m[0mid[0m[0m                     = "index.html" [90m->[0m [0m[90mnull[0m[0m
       [31m-[0m [0m[1m[0mkey[0m[0m                    = "index.html" [90m->[0m [0m[90mnull[0m[0m
-      [31m-[0m [0m[1m[0mkms_key_id[0m[0m             = "arn:aws:kms:ap-northeast-1:020089661374:key/22534c91-2c0f-446c-9d59-f8dd0d0d22eb" [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mkms_key_id[0m[0m             = "arn:aws:kms:ap-northeast-1:020089661374:key/922b39ae-3d88-4147-a877-22f3c0dcd3c0" [90m->[0m [0m[90mnull[0m[0m
       [31m-[0m [0m[1m[0mmetadata[0m[0m               = {} [90m->[0m [0m[90mnull[0m[0m
       [31m-[0m [0m[1m[0mserver_side_encryption[0m[0m = "aws:kms" [90m->[0m [0m[90mnull[0m[0m
       [31m-[0m [0m[1m[0msource[0m[0m                 = "test.html" [90m->[0m [0m[90mnull[0m[0m
@@ -118,16 +118,16 @@ Terraform will perform the following actions:
 [0m[1mPlan:[0m 0 to add, 0 to change, 4 to destroy.
 [0m[0m
 [1mChanges to Outputs:[0m[0m
-  [31m-[0m [0m[1m[0mkey_arn[0m[0m        = "arn:aws:kms:ap-northeast-1:020089661374:key/22534c91-2c0f-446c-9d59-f8dd0d0d22eb" [90m->[0m [0m[90mnull[0m[0m
-  [31m-[0m [0m[1m[0mkey_id[0m[0m         = "22534c91-2c0f-446c-9d59-f8dd0d0d22eb" [90m->[0m [0m[90mnull[0m[0m
+  [31m-[0m [0m[1m[0mkey_arn[0m[0m        = "arn:aws:kms:ap-northeast-1:020089661374:key/922b39ae-3d88-4147-a877-22f3c0dcd3c0" [90m->[0m [0m[90mnull[0m[0m
+  [31m-[0m [0m[1m[0mkey_id[0m[0m         = "922b39ae-3d88-4147-a877-22f3c0dcd3c0" [90m->[0m [0m[90mnull[0m[0m
   [31m-[0m [0m[1m[0ms3_bucket_name[0m[0m = "tip-cloud-ag-bucket" [90m->[0m [0m[90mnull[0m[0m
 [0m[1maws_s3_bucket_acl.tip-cloud-bucketacl: Destroying... [id=tip-cloud-ag-bucket,private][0m[0m
 [0m[1maws_s3_object.statis_html: Destroying... [id=index.html][0m[0m
 [0m[1maws_s3_bucket_acl.tip-cloud-bucketacl: Destruction complete after 0s[0m
-[0m[1maws_s3_object.statis_html: Destruction complete after 0s[0m
+[0m[1maws_s3_object.statis_html: Destruction complete after 1s[0m
+[0m[1maws_kms_key.tipkms: Destroying... [id=922b39ae-3d88-4147-a877-22f3c0dcd3c0][0m[0m
 [0m[1maws_s3_bucket.tip-cloud-buckets3: Destroying... [id=tip-cloud-ag-bucket][0m[0m
-[0m[1maws_kms_key.tipkms: Destroying... [id=22534c91-2c0f-446c-9d59-f8dd0d0d22eb][0m[0m
-[0m[1maws_s3_bucket.tip-cloud-buckets3: Destruction complete after 1s[0m
+[0m[1maws_s3_bucket.tip-cloud-buckets3: Destruction complete after 0s[0m
 [0m[1maws_kms_key.tipkms: Destruction complete after 1s[0m
 [0m[1m[32m
 Apply complete! Resources: 0 added, 0 changed, 4 destroyed.
